@@ -14,20 +14,10 @@ public class MainApp {
 		Connection conn = getConnection();
 		//insert(conn);
 		//update(conn);
-		delete(conn);
+		//delete(conn);
 		select(conn);
-//		/**
-//		 * Category
-//		 */
-//		CategoryImpl.insert(con);
-//		CategoryImpl.update(con);
-//		CategoryImpl.delete(con);
-//		CategoryImpl.readOne(con);
-//		CategoryImpl.readAll(con);
-//		
-//		/**
-//		 * User
-//		 */
+
+
 	}
 
 	private static void select(Connection conn) {
